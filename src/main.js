@@ -349,6 +349,7 @@ function configureCrashReporter() {
 	else {
 		const appCenter = product.appCenter;
 		if (appCenter) {
+			//This could all turn into a switch statement
 			const isWindows = (process.platform === 'win32');
 			const isLinux = (process.platform === 'linux');
 			const isDarwin = (process.platform === 'darwin');
